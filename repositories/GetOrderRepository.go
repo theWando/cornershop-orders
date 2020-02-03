@@ -1,21 +1,22 @@
 package repositories
 
 import (
+	"encoding/json"
 	"errors"
 	"fmt"
-	"io/ioutil"
 	"net/http"
+	"os"
 )
 
 const url = "https://cornershopapp.com/api/v3/orders/"
 
-func Get(id string) (string, error) {
+func Get(id string) (map[string]interface{}, error) {
 	req, err := http.NewRequest("GET", fmt.Sprint(url, id), nil)
 	if err != nil {
-		return "", errors.New("error creating a request")
+		return nil, errors.New("error creating a request")
 	}
 
-	req.Header.Add("cookie", "")
+	req.Header.Add("cookie", os.Getenv("CORNERSHOP_COOKIE"))
 	req.Header.Add("accept", "application/json")
 	//req.Header.Add("accept-encoding", "gzip, deflate, br")
 
@@ -24,28 +25,22 @@ func Get(id string) (string, error) {
 	resp, err := client.Do(req)
 
 	if err != nil {
-		return "", errors.New("error doing request")
+		return nil, errors.New("error doing request")
 	}
 
 	if resp.StatusCode != 200 {
-		return "", errors.New(fmt.Sprint("error code ", resp.StatusCode))
+		return nil, errors.New(fmt.Sprint("error code ", resp.StatusCode))
 	}
 
 	fmt.Println("Successful response ", resp.StatusCode)
-	//var response map[string]interface{}
+	var response map[string]interface{}
 
 	defer resp.Body.Close()
 
-	bytes, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return "", errors.New("error reading bytes")
-	}
-
-	//bytes = bytes.TrimPrefix(bytes, []byte("\xef\xbb\xbf"))
-	/*err = json.Unmarshal(bytes, response)
+	err = json.NewDecoder(resp.Body).Decode(&response)
 
 	if err != nil {
 		return nil, errors.New("error parsing json")
-	}*/
-	return string(bytes), nil
+	}
+	return response, nil
 }
