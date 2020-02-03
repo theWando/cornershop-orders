@@ -23,6 +23,8 @@ func Get() (int, error) {
 	var i int
 	for i, inter = range ordersSlice {
 		go func(order map[string]interface{}, i int, channel chan float64) {
+			defer wg.Done()
+
 			ordersDetails := order["orders"].([]interface{})
 			id := ordersDetails[0].(map[string]interface{})["uuid"].(string)
 			orderDetail, err := repositories.GetOrder(id)
@@ -32,7 +34,6 @@ func Get() (int, error) {
 				return
 			}
 			total := orderDetail["total"]
-			defer wg.Done()
 			channel <- total.(float64)
 		}(inter.(map[string]interface{}), i, channel)
 	}
@@ -40,9 +41,9 @@ func Get() (int, error) {
 	total := 0
 	var value float64
 	wg.Wait()
+	close(channel)
 	for value = range channel {
 		total += int(value)
-		fmt.Println("total: ", total)
 	}
 	return total, nil
 }

@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/theWando/conershopOrders/repositories"
+	"github.com/theWando/conershopOrders/usecase"
 )
 
 func main() {
 	fmt.Println("Starting Applications")
-	total, err := repositories.GetOrder("CL-750625-9154211")
+	total, err := usecase.Get()
 
 	if err != nil {
 		fmt.Println("error getting order ", err)
