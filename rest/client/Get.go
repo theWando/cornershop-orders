@@ -27,7 +27,6 @@ func Get(url string, headers map[string]interface{}) (map[string]interface{}, er
 		return nil, errors.New(fmt.Sprint("error code ", resp.StatusCode))
 	}
 
-	fmt.Println("Successful response ", resp.StatusCode)
 	var response map[string]interface{}
 
 	defer resp.Body.Close()
