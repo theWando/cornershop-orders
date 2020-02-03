@@ -1,46 +1,16 @@
 package repositories
 
 import (
-	"encoding/json"
-	"errors"
 	"fmt"
-	"net/http"
+	"github.com/theWando/conershopOrders/rest/client"
 	"os"
 )
 
 const url = "https://cornershopapp.com/api/v3/orders/"
 
-func Get(id string) (map[string]interface{}, error) {
-	req, err := http.NewRequest("GET", fmt.Sprint(url, id), nil)
-	if err != nil {
-		return nil, errors.New("error creating a request")
-	}
-
-	req.Header.Add("cookie", os.Getenv("CORNERSHOP_COOKIE"))
-	req.Header.Add("accept", "application/json")
-	//req.Header.Add("accept-encoding", "gzip, deflate, br")
-
-	client := &http.Client{}
-
-	resp, err := client.Do(req)
-
-	if err != nil {
-		return nil, errors.New("error doing request")
-	}
-
-	if resp.StatusCode != 200 {
-		return nil, errors.New(fmt.Sprint("error code ", resp.StatusCode))
-	}
-
-	fmt.Println("Successful response ", resp.StatusCode)
-	var response map[string]interface{}
-
-	defer resp.Body.Close()
-
-	err = json.NewDecoder(resp.Body).Decode(&response)
-
-	if err != nil {
-		return nil, errors.New("error parsing json")
-	}
-	return response, nil
+func GetOrder(id string) (map[string]interface{}, error) {
+	var headers = make(map[string]interface{}, 2)
+	headers["cookie"] = os.Getenv("CORNERSHOP_COOKIE")
+	headers["accept"] = "application/json"
+	return client.Get(fmt.Sprint(url, id), headers)
 }
