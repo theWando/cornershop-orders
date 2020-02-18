@@ -2,7 +2,7 @@ package repositories
 
 import (
 	"fmt"
-	"github.com/theWando/conershopOrders/rest/client"
+	"github.com/theWando/cornershop-orders/rest/client"
 )
 
 const url = "https://cornershopapp.com/api/v3/orders/"

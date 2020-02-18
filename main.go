@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/theWando/conershopOrders/usecase"
+	"github.com/theWando/cornershop-orders/usecase"
 )
 
 func main() {

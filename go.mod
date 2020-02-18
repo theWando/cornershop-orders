@@ -1,4 +1,4 @@
-module github.com/theWando/conershopOrders
+module github.com/theWando/cornershop-orders
 
 go 1.13
 

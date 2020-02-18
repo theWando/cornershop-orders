@@ -3,7 +3,7 @@ package usecase
 import (
 	"errors"
 	"fmt"
-	"github.com/theWando/conershopOrders/repositories"
+	"github.com/theWando/cornershop-orders/repositories"
 	"sync"
 )
 
