@@ -3,39 +3,38 @@ package usecase
 import (
 	"errors"
 	"fmt"
+	"github.com/theWando/cornershop-orders/model"
 	"github.com/theWando/cornershop-orders/repositories"
 	"sync"
 )
 
 func Get() (int, error) {
-	orders, err := repositories.GetOrders()
+	response, err := repositories.GetOrders()
 	if err != nil {
-		return 0, errors.New("error getting orders")
+		return 0, errors.New("error getting response")
 	}
 
-	ordersSlice := orders["results"].([]interface{})
 	var wg sync.WaitGroup
-	wg.Add(len(ordersSlice))
+	orders := &response.Results
+	wg.Add(len(*orders))
 
-	channel := make(chan float64, len(ordersSlice))
+	channel := make(chan float64, len(*orders))
 
-	var inter interface{}
+	var inter model.Order
 	var i int
-	for i, inter = range ordersSlice {
-		go func(order map[string]interface{}, i int, channel chan float64) {
+	for i, inter = range *orders {
+		go func(order model.Order, i int, channel chan float64) {
 			defer wg.Done()
 
-			ordersDetails := order["orders"].([]interface{})
-			id := ordersDetails[0].(map[string]interface{})["uuid"].(string)
-			orderDetail, err := repositories.GetOrder(id)
+			orderDetail, err := repositories.GetOrder(order.Uuid)
 			if err != nil {
-				fmt.Printf("%d error getting data for %s. err %s\n", i, id, err)
+				fmt.Printf("%d error getting data for %s. err %s\n", i, order.Uuid, err)
 				wg.Done()
 				return
 			}
 			total := orderDetail["total"]
 			channel <- total.(float64)
-		}(inter.(map[string]interface{}), i, channel)
+		}(inter, i, channel)
 	}
 
 	total := 0

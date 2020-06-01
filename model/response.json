@@ -1,0 +1,2707 @@
+{
+  "pages": {
+    "current": 1,
+    "next": null,
+    "previous": null,
+    "total": 1,
+    "size": 50
+  },
+  "count": 42,
+  "results": [
+    {
+      "id": "CL-095736-2405729",
+      "uuid": "CL-095736-2405729",
+      "orders": [
+        {
+          "uuid": "CL-855583-6797407",
+          "address": {
+            "id": 8958637,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Christian Erik",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa60ab5b6a7ce7564ad08b6454f0af23.png.png"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 64880.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": true,
+          "created": "2020-01-30T22:38:37.512619Z",
+          "updated": "2020-01-31T00:25:43.553146Z",
+          "delivered_at": "2020-01-31T00:25:43.656279Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2020-01-30T22:38:37.491391Z"
+    },
+    {
+      "id": "CL-520502-6745008",
+      "uuid": "CL-520502-6745008",
+      "orders": [
+        {
+          "uuid": "CL-750625-9154211",
+          "address": {
+            "id": 8842744,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Claudia",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1227828/32f6a85c0d57e741197fc9700ba396d3.png?versionId=8DmTvVWKQGTN0Cge26vQcGdd3PvVmqnR"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 70668.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2020-01-24T11:31:50.795632Z",
+          "updated": "2020-01-24T12:50:20.154262Z",
+          "delivered_at": "2020-01-24T12:50:20.291018Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2020-01-24T11:31:50.775038Z"
+    },
+    {
+      "id": "CL-050731-8817759",
+      "uuid": "CL-050731-8817759",
+      "orders": [
+        {
+          "uuid": "CL-213622-4107814",
+          "address": {
+            "id": 8722037,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Carmen  Gloria",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com:443/profile-images/2014980/87a833ab0620962c03bc158339f3ca79.png?versionId=HVwHbplXQx9tmS_LmATNqoGLtQU5Gjsm"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 42265.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2020-01-17T12:59:19.651287Z",
+          "updated": "2020-01-17T13:56:59.202225Z",
+          "delivered_at": "2020-01-17T13:56:59.348373Z",
+          "delivery_slot_text": "Menos de 60 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2020-01-17T12:59:19.624496Z"
+    },
+    {
+      "id": "CL-547120-3003479",
+      "uuid": "CL-547120-3003479",
+      "orders": [
+        {
+          "uuid": "CL-240075-4081210",
+          "address": {
+            "id": 8629898,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Hernán",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com:443/profile-images/1941451/49aaf8ee24d3a9801dc68d1d1be2c53a.png?versionId=IBCShlqbDXtQ1hQUEYk2WiFG8qqgLhqP"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 58305.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2020-01-12T12:09:38.608014Z",
+          "updated": "2020-01-12T13:08:45.461511Z",
+          "delivered_at": "2020-01-12T13:08:45.598011Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2020-01-12T12:09:38.593576Z"
+    },
+    {
+      "id": "CL-098903-3474517",
+      "uuid": "CL-098903-3474517",
+      "orders": [
+        {
+          "uuid": "CL-280766-3141560",
+          "address": {
+            "id": 8485460,
+            "label": "Mi casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. Casa 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Patricio Arturo",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1260286/88d4992c737c839c7731fe78ee655dc4.png?versionId=PL5PPlTsnVQyKdE7Nlscy5E8Tl_bHjFS"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 61395.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2020-01-04T15:42:26.442344Z",
+          "updated": "2020-01-04T17:05:05.333077Z",
+          "delivered_at": "2020-01-04T17:05:05.566634Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2020-01-04T15:42:26.415827Z"
+    },
+    {
+      "id": "CL-950988-1459666",
+      "uuid": "CL-950988-1459666",
+      "orders": [
+        {
+          "uuid": "CL-170140-0463722",
+          "address": {
+            "id": 8227104,
+            "label": "Mi casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. Casa 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Ramon alejandro",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1262910/50167c55fe3cb5cafebe0c44d370541d.png?versionId=f.tnKIVMcFMPbBhDd8eucoCob_kBKI.o"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 53332.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-12-20T15:39:53.647541Z",
+          "updated": "2019-12-20T16:46:30.487604Z",
+          "delivered_at": "2019-12-20T16:46:30.686333Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-12-20T15:39:53.601746Z"
+    },
+    {
+      "id": "CL-946993-1127791",
+      "uuid": "CL-946993-1127791",
+      "orders": [
+        {
+          "uuid": "CL-436824-7036498",
+          "address": {
+            "id": 8038658,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Juan",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1625761/da966ba778905c12997f1abb86adb7ac.png?versionId=nZ31.vhuL5Y2VqLBflz6VHsx4Z3.vweN"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 38135.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-12-11T11:26:32.060770Z",
+          "updated": "2019-12-11T12:20:55.624162Z",
+          "delivered_at": "2019-12-11T12:20:55.825523Z",
+          "delivery_slot_text": "Menos de 60 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-12-11T11:26:32.041859Z"
+    },
+    {
+      "id": "CL-311240-9900658",
+      "uuid": "CL-311240-9900658",
+      "orders": [
+        {
+          "uuid": "CL-449839-5048181",
+          "address": {
+            "id": 7946493,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Constanza",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1724238/7c9fa9fd89cf14cc2534b5e139e9283a.png?versionId=2LtnnelcuZDQPnRMxsNH_wvyCTcMzY5b"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 22136.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-12-06T13:29:03.862504Z",
+          "updated": "2019-12-06T13:58:24.881498Z",
+          "delivered_at": "2019-12-06T13:58:25.001511Z",
+          "delivery_slot_text": "Menos de 60 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-12-06T13:29:03.842145Z"
+    },
+    {
+      "id": "CL-484217-3858673",
+      "uuid": "CL-484217-3858673",
+      "orders": [
+        {
+          "uuid": "CL-880760-7244375",
+          "address": {
+            "id": 7879075,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "María Luisa",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1663488/b31581c7d82c4d1f3d0a2c0b38cf4613.png?versionId=IrEEJjSNrQZfiUK_pwkEcrp2Fu5Sk4Eg"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 35931.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-12-02T18:52:48.888102Z",
+          "updated": "2019-12-02T20:26:22.965276Z",
+          "delivered_at": "2019-12-02T20:26:23.097911Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-12-02T18:52:48.867554Z"
+    },
+    {
+      "id": "CL-291368-8030917",
+      "uuid": "CL-291368-8030917",
+      "orders": [
+        {
+          "uuid": "CL-306804-5677329",
+          "address": {
+            "id": 7762531,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Ana Joselyn",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/a547cda19b9e6d2314ff53b016cbcc83.png.png?versionId=MUITgMu34uO6hrM6.zMUB3LH3x7epOf8"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 39545.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-11-26T00:38:52.612299Z",
+          "updated": "2019-11-26T12:19:01.751089Z",
+          "delivered_at": "2019-11-26T12:19:01.856364Z",
+          "delivery_slot_text": "Martes, 9am"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-11-26T00:38:52.574793Z"
+    },
+    {
+      "id": "CL-990150-6353952",
+      "uuid": "CL-990150-6353952",
+      "orders": [
+        {
+          "uuid": "CL-504141-0790744",
+          "address": {
+            "id": 7691674,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Claudio Francisco",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/473849/03062215f2ef39f4bd679b1790e5c47e.png?versionId=Efy4OXFNWtPXZXGq6w9TuthyEMrEOd9x"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 53245.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-11-21T15:22:57.126100Z",
+          "updated": "2019-11-21T16:16:47.469999Z",
+          "delivered_at": "2019-11-21T16:16:47.606821Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-11-21T15:22:57.110401Z"
+    },
+    {
+      "id": "CL-697384-5196622",
+      "uuid": "CL-697384-5196622",
+      "orders": [
+        {
+          "uuid": "CL-191316-8868689",
+          "address": {
+            "id": 7616232,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Hernán",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com:443/profile-images/1941451/49aaf8ee24d3a9801dc68d1d1be2c53a.png?versionId=IBCShlqbDXtQ1hQUEYk2WiFG8qqgLhqP"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 18680.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-11-16T19:22:45.779730Z",
+          "updated": "2019-11-16T20:13:47.571788Z",
+          "delivered_at": "2019-11-16T20:13:47.733071Z",
+          "delivery_slot_text": "Menos de 60 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-11-16T19:22:45.763673Z"
+    },
+    {
+      "id": "CL-912604-1535192",
+      "uuid": "CL-912604-1535192",
+      "orders": [
+        {
+          "uuid": "CL-158631-4352959",
+          "address": {
+            "id": 7584688,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Patricio",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/930483/ce8d0c6cea642e2e70ca816d2f1445ac.png?versionId=rx5OfbWVQTSofxxUOGii.d4OrvV_PZit"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 67525.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-11-14T16:46:22.968029Z",
+          "updated": "2019-11-14T18:25:51.016700Z",
+          "delivered_at": "2019-11-14T18:25:51.128798Z",
+          "delivery_slot_text": "Menos de 2 horas"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-11-14T16:46:22.946372Z"
+    },
+    {
+      "id": "CL-110646-3665889",
+      "uuid": "CL-110646-3665889",
+      "orders": [
+        {
+          "uuid": "CL-215649-2726030",
+          "address": {
+            "id": 7190581,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Raúl Alejandro",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1340454/f23c23f28a8e3f81f2168b0e2ebcc6ef.png?versionId=qe6emBAz9kgL2Cke.PQH5DLr7mQNWu08"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 39053.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-10-15T22:32:14.373370Z",
+          "updated": "2019-10-15T23:34:39.174029Z",
+          "delivered_at": "2019-10-15T23:34:39.326410Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-10-15T22:32:14.351494Z"
+    },
+    {
+      "id": "CL-902483-4733075",
+      "uuid": "CL-902483-4733075",
+      "orders": [
+        {
+          "uuid": "CL-350396-7782255",
+          "address": {
+            "id": 6931168,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Fabian",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com:443/profile-images/1300542/b5a69704dbb888e54719387a49349e0d.png?versionId=WmOlqt8g5FhNcDDLk2yo7uAhPXLTL6CF"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 31309.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-10-01T13:41:58.702208Z",
+          "updated": "2019-10-01T14:04:49.944452Z",
+          "delivered_at": "2019-10-01T14:04:50.445066Z",
+          "delivery_slot_text": "Menos de 60 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-10-01T13:41:58.685225Z"
+    },
+    {
+      "id": "CL-559601-4463489",
+      "uuid": "CL-559601-4463489",
+      "orders": [
+        {
+          "uuid": "CL-074889-2848716",
+          "address": {
+            "id": 6740380,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Yohander",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1444420/79563511e8379923d49744c91d5c4b13.png?versionId=vAoXb.gWqaFLQGG1XsYMav0BXWj7ARfh"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 66685.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-09-20T17:47:56.733090Z",
+          "updated": "2019-09-20T18:42:47.589765Z",
+          "delivered_at": "2019-09-20T18:42:47.750009Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-09-20T17:47:56.716758Z"
+    },
+    {
+      "id": "CL-327098-3217900",
+      "uuid": "CL-327098-3217900",
+      "orders": [
+        {
+          "uuid": "CL-833012-4772421",
+          "address": {
+            "id": 6700738,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Arnaldo Andrés",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1406459/befed79b6132347a406d5af3e8d37d0c.png?versionId=tKdeTpj4vvxs3ZRpXwteNpdbI4YtuQIX"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 51567.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-09-16T22:11:23.268595Z",
+          "updated": "2019-09-16T23:53:25.391191Z",
+          "delivered_at": "2019-09-16T23:53:25.536555Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-09-16T22:11:23.249906Z"
+    },
+    {
+      "id": "CL-634241-8331531",
+      "uuid": "CL-634241-8331531",
+      "orders": [
+        {
+          "uuid": "CL-004193-2674110",
+          "address": {
+            "id": 6642068,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Ramon alejandro",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1262910/50167c55fe3cb5cafebe0c44d370541d.png?versionId=f.tnKIVMcFMPbBhDd8eucoCob_kBKI.o"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 49650.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-09-12T21:00:25.872376Z",
+          "updated": "2019-09-12T22:49:25.473361Z",
+          "delivered_at": "2019-09-12T22:49:25.631284Z",
+          "delivery_slot_text": "Jueves, 8pm"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-09-12T21:00:25.840728Z"
+    },
+    {
+      "id": "CL-983182-2910629",
+      "uuid": "CL-983182-2910629",
+      "orders": [
+        {
+          "uuid": "CL-544265-2735165",
+          "address": {
+            "id": 6551587,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Jacqueline De Lourdes",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1622815/0014213aff4d9ab4bc5b57c3378083b9.png?versionId=6rDMQgfNM6r8q6ZyGKsAZl6M604B2sp."
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 28430.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-09-07T18:56:54.696767Z",
+          "updated": "2019-09-07T19:29:04.539949Z",
+          "delivered_at": "2019-09-07T19:29:04.667558Z",
+          "delivery_slot_text": "Menos de 60 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-09-07T18:56:54.677750Z"
+    },
+    {
+      "id": "CL-348211-2016748",
+      "uuid": "CL-348211-2016748",
+      "orders": [
+        {
+          "uuid": "CL-709139-0454150",
+          "address": {
+            "id": 6539177,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Paulina ",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/705683d8a4488cc0e21014c01e6fdd17.png.png"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 30460.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-09-06T21:49:35.670724Z",
+          "updated": "2019-09-06T22:52:26.466589Z",
+          "delivered_at": "2019-09-06T22:52:26.633055Z",
+          "delivery_slot_text": "Menos de 60 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-09-06T21:49:35.640547Z"
+    },
+    {
+      "id": "CL-268157-8647591",
+      "uuid": "CL-268157-8647591",
+      "orders": [
+        {
+          "uuid": "CL-503663-4136271",
+          "address": {
+            "id": 6229561,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Alexis",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/f80a34d5399234bdaa9a10d66affed48.png"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 53354.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-08-20T00:19:09.961464Z",
+          "updated": "2019-08-20T01:20:49.377291Z",
+          "delivered_at": "2019-08-20T01:20:49.489537Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-08-20T00:19:09.940453Z"
+    },
+    {
+      "id": "CL-226590-0072776",
+      "uuid": "CL-226590-0072776",
+      "orders": [
+        {
+          "uuid": "CL-092707-0550883",
+          "address": {
+            "id": 6059092,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Hector Leonardo",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1191617/8394526787f0e09116f43fe4c671b7a4.png?versionId=lL_Gg8eYHybsOLAeZbyyg31X76Pli5lQ"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 44652.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-08-10T15:24:33.721511Z",
+          "updated": "2019-08-10T16:01:30.155620Z",
+          "delivered_at": "2019-08-10T16:01:30.263352Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-08-10T15:24:33.691562Z"
+    },
+    {
+      "id": "CL-851668-1711018",
+      "uuid": "CL-851668-1711018",
+      "orders": [
+        {
+          "uuid": "CL-154477-9943326",
+          "address": {
+            "id": 5985177,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Juan",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1625761/da966ba778905c12997f1abb86adb7ac.png?versionId=nZ31.vhuL5Y2VqLBflz6VHsx4Z3.vweN"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 26097.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-08-06T00:17:26.970386Z",
+          "updated": "2019-08-06T01:07:48.104119Z",
+          "delivered_at": "2019-08-06T01:07:48.199250Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-08-06T00:17:26.953387Z"
+    },
+    {
+      "id": "CL-350618-0285757",
+      "uuid": "CL-350618-0285757",
+      "orders": [
+        {
+          "uuid": "CL-891191-2239963",
+          "address": {
+            "id": 5804962,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Alexander",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1625756/805e80e342973a2ba886000de63906db.png?versionId=9rXYAw4bCj1jnscpuXMPWPDvz_Yv6SuX"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 35820.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-07-26T22:47:52.750813Z",
+          "updated": "2019-07-26T23:25:33.947166Z",
+          "delivered_at": "2019-07-26T23:25:34.284524Z",
+          "delivery_slot_text": "Menos de 60 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-07-26T22:47:52.729234Z"
+    },
+    {
+      "id": "CL-656971-2528089",
+      "uuid": "CL-656971-2528089",
+      "orders": [
+        {
+          "uuid": "CL-643299-2833235",
+          "address": {
+            "id": 5792756,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Marcó Antonio",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1059625/e84579c8abfc35e95eaae447194d4714.png?versionId=MgzXrZWz3zrNQOFZtLqpIHGEjYi_gNht"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 45915.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-07-26T03:35:29.198848Z",
+          "updated": "2019-07-26T13:57:17.783217Z",
+          "delivered_at": "2019-07-26T13:57:17.923131Z",
+          "delivery_slot_text": "Viernes, 10am"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-07-26T03:35:29.182275Z"
+    },
+    {
+      "id": "CL-527911-0186514",
+      "uuid": "CL-527911-0186514",
+      "orders": [
+        {
+          "uuid": "CL-151366-5520408",
+          "address": {
+            "id": 5179717,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Arnaldo Miguel",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/983069/5c7b8d2faf378c57177a9b8c866f1c23.png?versionId=2cvRQpqEEoxLe02Ij8tPtBJjoa3AxO6A"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 62936.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-06-20T14:55:12.700985Z",
+          "updated": "2019-06-20T16:04:08.964768Z",
+          "delivered_at": "2019-06-20T16:04:09.056361Z",
+          "delivery_slot_text": "Menos de 2 horas"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-06-20T14:55:12.670158Z"
+    },
+    {
+      "id": "CL-810753-4519060",
+      "uuid": "CL-810753-4519060",
+      "orders": [
+        {
+          "uuid": "CL-919260-6899105",
+          "address": {
+            "id": 5091972,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Arnaldo Miguel",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/983069/5c7b8d2faf378c57177a9b8c866f1c23.png?versionId=2cvRQpqEEoxLe02Ij8tPtBJjoa3AxO6A"
+          },
+          "cart": {
+            "id": 1450381,
+            "label": "sabadito"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 27308.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-06-15T22:45:04.355056Z",
+          "updated": "2019-06-15T23:44:44.279825Z",
+          "delivered_at": "2019-06-15T23:44:44.433200Z",
+          "delivery_slot_text": "Hoy, 8pm-9pm"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-06-15T22:45:04.321645Z"
+    },
+    {
+      "id": "CL-802780-8211841",
+      "uuid": "CL-802780-8211841",
+      "orders": [
+        {
+          "uuid": "CL-406803-2929192",
+          "address": {
+            "id": 5025095,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Victor",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1105831/5d57c3d9e4567dfafd9d71bff46648ae.png?versionId=aw2FPE21JX4aVUSujiBhjHRNS6NdJ8vX"
+          },
+          "cart": {
+            "id": 1071041,
+            "label": null
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 23044.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-06-12T02:21:42.516148Z",
+          "updated": "2019-06-12T14:31:00.637996Z",
+          "delivered_at": "2019-06-12T14:31:00.769774Z",
+          "delivery_slot_text": "Miércoles, 11am"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-06-12T02:21:42.495051Z"
+    },
+    {
+      "id": "CL-686761-1296942",
+      "uuid": "CL-686761-1296942",
+      "orders": [
+        {
+          "uuid": "CL-876610-3780936",
+          "address": {
+            "id": 4926925,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Hector Leonardo",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1191617/8394526787f0e09116f43fe4c671b7a4.png?versionId=lL_Gg8eYHybsOLAeZbyyg31X76Pli5lQ"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 52003.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-06-07T00:22:09.250888Z",
+          "updated": "2019-06-07T01:20:13.867142Z",
+          "delivered_at": "2019-06-07T01:20:13.960033Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-06-07T00:22:09.230609Z"
+    },
+    {
+      "id": "CL-957449-5787496",
+      "uuid": "CL-957449-5787496",
+      "orders": [
+        {
+          "uuid": "CL-598119-5422043",
+          "address": {
+            "id": 4788586,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Luis Alfredo",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1003330/25609a2e7be3d8284c8d19203061b8e7.png?versionId=3gm5DY4760qd5k.49EHhy7l6X6.IbBA8"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 37450.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-05-31T05:11:36.451874Z",
+          "updated": "2019-05-31T14:35:56.085818Z",
+          "delivered_at": "2019-05-31T14:35:56.192129Z",
+          "delivery_slot_text": "Viernes, 11am"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-05-31T05:11:36.431511Z"
+    },
+    {
+      "id": "CL-224227-3739791",
+      "uuid": "CL-224227-3739791",
+      "orders": [
+        {
+          "uuid": "CL-030750-2484390",
+          "address": {
+            "id": 4773746,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Andrea",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/674991/5551556bc5eebacb341f6750fbf1c599.png?versionId=np717rve7DbK5A5AHkJqPphqsFNtb_sp"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 63149.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-05-30T12:52:05.077611Z",
+          "updated": "2019-05-30T14:06:53.287196Z",
+          "delivered_at": "2019-05-30T14:06:53.429966Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-05-30T12:52:05.052398Z"
+    },
+    {
+      "id": "CL-058689-4020357",
+      "uuid": "CL-058689-4020357",
+      "orders": [
+        {
+          "uuid": "CL-637260-4197793",
+          "address": {
+            "id": 4676981,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Victor",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1105831/5d57c3d9e4567dfafd9d71bff46648ae.png?versionId=aw2FPE21JX4aVUSujiBhjHRNS6NdJ8vX"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 20728.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-05-24T00:05:09.350828Z",
+          "updated": "2019-05-24T00:55:36.223977Z",
+          "delivered_at": "2019-05-24T00:55:36.383463Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "1165566",
+        "first_name": "Doris",
+        "last_name": "Zambrano",
+        "full_name": "Doris",
+        "profile_picture_url": null
+      },
+      "created": "2019-05-24T00:05:09.322776Z"
+    },
+    {
+      "id": "CL-804149-7948139",
+      "uuid": "CL-804149-7948139",
+      "orders": [
+        {
+          "uuid": "CL-469702-6221081",
+          "address": {
+            "id": 4596676,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Luis",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/491339/ae7088143df2cd1e8db1843b9418d882.png?versionId=n61dzmP_om20OecD_RWxr3jRT5aZOJxp"
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 49177.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-05-18T13:26:43.940386Z",
+          "updated": "2019-05-18T15:01:25.501710Z",
+          "delivered_at": "2019-05-18T15:01:25.604370Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-05-18T13:26:43.913417Z"
+    },
+    {
+      "id": "CL-379056-1884236",
+      "uuid": "CL-379056-1884236",
+      "orders": [
+        {
+          "uuid": "CL-030070-9132693",
+          "address": {
+            "id": 4546528,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Javiera",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/858956/c8f95a4b26a4990dd4077f4769b7cf8e.png?versionId=oa_nuNvtJvLE8c28dB6KkM5GjUrfxmE."
+          },
+          "cart": {
+            "id": 1368962,
+            "label": "lista Casita"
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 48494.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-05-14T18:12:53.161722Z",
+          "updated": "2019-05-14T20:07:29.674470Z",
+          "delivered_at": "2019-05-14T20:07:29.773111Z",
+          "delivery_slot_text": "Martes, 4pm"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-05-14T18:12:53.136342Z"
+    },
+    {
+      "id": "CL-183954-7937071",
+      "uuid": "CL-183954-7937071",
+      "orders": [
+        {
+          "uuid": "CL-378422-8210806",
+          "address": {
+            "id": 4497382,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Sofia",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1036431/f151804cce2f7127fcd72108087c193a.png?versionId=ok8HK6iySLfVwqIC5fpAMMpjI22ZSeX."
+          },
+          "cart": {
+            "id": 1071041,
+            "label": null
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 43071.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-05-11T15:22:57.863235Z",
+          "updated": "2019-05-11T16:18:21.572445Z",
+          "delivered_at": "2019-05-11T16:18:21.669406Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-05-11T15:22:57.834560Z"
+    },
+    {
+      "id": "CL-083033-0033607",
+      "uuid": "CL-083033-0033607",
+      "orders": [
+        {
+          "uuid": "CL-586380-5991993",
+          "address": {
+            "id": 4439918,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Yarella Sussy",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1133203/6c42388f3a5473c8a54cb1cade461694.png?versionId=EiAuN7ZlbXJ.aE.CihRLNG0FxtI6xdf1"
+          },
+          "cart": {
+            "id": 1071041,
+            "label": null
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 27139.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-05-07T14:18:12.161211Z",
+          "updated": "2019-05-07T20:19:03.012442Z",
+          "delivered_at": "2019-05-07T20:19:03.112496Z",
+          "delivery_slot_text": "Martes, 4pm"
+        },
+        {
+          "uuid": "CL-946268-7532808",
+          "address": {
+            "id": 4439919,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 149,
+            "name": "Chamisero",
+            "store": {
+              "id": 4,
+              "name": "Jumbo",
+              "brand_color": "279f5b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/4.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/4.png"
+          },
+          "shopper": {
+            "first_name": "Paula",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1303503/84bdd11df4f28685228f78d4e30f4e82.png?versionId=JVKyAocn7ZtNnxChYzxnPqgNhRxQrYJJ"
+          },
+          "cart": {
+            "id": 1071041,
+            "label": null
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 23821.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-05-07T14:18:15.081964Z",
+          "updated": "2019-05-07T15:19:21.447549Z",
+          "delivered_at": "2019-05-07T15:19:21.540751Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-05-07T14:18:12.142861Z"
+    },
+    {
+      "id": "CL-214259-4821941",
+      "uuid": "CL-214259-4821941",
+      "orders": [
+        {
+          "uuid": "CL-195239-2770768",
+          "address": {
+            "id": 4383108,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Natalie Daniela",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1034877/c46af129ec456f4e696efc782265cad0.png?versionId=bk8JGX8aYOExNBlzH_sHBRKu59Hvnuja"
+          },
+          "cart": {
+            "id": 1071041,
+            "label": null
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 31431.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-05-03T16:32:47.858523Z",
+          "updated": "2019-05-03T18:56:14.444073Z",
+          "delivered_at": "2019-05-03T18:56:14.531543Z",
+          "delivery_slot_text": "Menos de 60 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-05-03T16:32:47.841552Z"
+    },
+    {
+      "id": "CL-856458-2133588",
+      "uuid": "CL-856458-2133588",
+      "orders": [
+        {
+          "uuid": "CL-372082-5265259",
+          "address": {
+            "id": 4370379,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Camilo",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1003369/c0940a8bc7483fec705ec3a0383d7dbf.png?versionId=SCpgN9r4H1pD_XPg7eIW9Ogoe1Z1pEpU"
+          },
+          "cart": {
+            "id": 1071041,
+            "label": null
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 89246.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-05-02T19:14:51.600180Z",
+          "updated": "2019-05-03T00:25:13.164971Z",
+          "delivered_at": "2019-05-03T00:25:13.449726Z",
+          "delivery_slot_text": "Jueves, 8pm"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-05-02T19:14:51.581930Z"
+    },
+    {
+      "id": "CL-555184-9692858",
+      "uuid": "CL-555184-9692858",
+      "orders": [
+        {
+          "uuid": "CL-847307-9553075",
+          "address": {
+            "id": 4214412,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Osvaldo",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1278289/c70f83b48ea08e8f882fce3074c50c77.png?versionId=NEMEAghhyAfCI7293gm6EZDv3Z9ccvyc"
+          },
+          "cart": {
+            "id": 1071041,
+            "label": null
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 71930.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-04-21T01:49:02.739590Z",
+          "updated": "2019-04-21T15:19:34.363701Z",
+          "delivered_at": "2019-04-21T15:19:34.465608Z",
+          "delivery_slot_text": "Mañana, 11am"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-04-21T01:49:02.723651Z"
+    },
+    {
+      "id": "CL-431055-7332893",
+      "uuid": "CL-431055-7332893",
+      "orders": [
+        {
+          "uuid": "CL-456120-8969443",
+          "address": {
+            "id": 4143323,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 149,
+            "name": "Chamisero",
+            "store": {
+              "id": 4,
+              "name": "Jumbo",
+              "brand_color": "279f5b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/4.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/4.png"
+          },
+          "shopper": {
+            "first_name": "Christian Erik",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa60ab5b6a7ce7564ad08b6454f0af23.png.png"
+          },
+          "cart": {
+            "id": 1071041,
+            "label": null
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 37183.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-04-14T22:10:23.673536Z",
+          "updated": "2019-04-15T00:17:18.258923Z",
+          "delivered_at": "2019-04-15T00:17:18.350787Z",
+          "delivery_slot_text": "Menos de 2 horas"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-04-14T22:10:23.652623Z"
+    },
+    {
+      "id": "CL-375535-0323384",
+      "uuid": "CL-375535-0323384",
+      "orders": [
+        {
+          "uuid": "CL-831026-3586976",
+          "address": {
+            "id": 3950511,
+            "label": "Casa",
+            "lat": -33.3558869,
+            "lng": -70.6837703,
+            "formatted": "Alberto Undurraga 1910, depto. 21, Huechuraba, Santiago"
+          },
+          "store_branch": {
+            "id": 481,
+            "name": "Plaza Norte",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Hector Leonardo",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1191617/8394526787f0e09116f43fe4c671b7a4.png?versionId=lL_Gg8eYHybsOLAeZbyyg31X76Pli5lQ"
+          },
+          "cart": {
+            "id": 1071041,
+            "label": null
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 90293.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-03-31T15:37:56.224534Z",
+          "updated": "2019-03-31T17:51:27.303796Z",
+          "delivered_at": "2019-03-31T17:51:27.416802Z",
+          "delivery_slot_text": "Mañana, 3pm"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-03-31T15:37:56.205360Z"
+    },
+    {
+      "id": "CL-732999-0635504",
+      "uuid": "CL-732999-0635504",
+      "orders": [
+        {
+          "uuid": "CL-545953-2226142",
+          "address": {
+            "id": 3865439,
+            "label": "María",
+            "lat": -33.4773136,
+            "lng": -70.6521042,
+            "formatted": "Milan 1437, depto. 703, San Miguel, Santiago"
+          },
+          "store_branch": {
+            "id": 132,
+            "name": "Quilin",
+            "store": {
+              "id": 1,
+              "name": "Lider",
+              "brand_color": "2c5a9b"
+            },
+            "img_url": "https://s.cornershopapp.com/store-images/1_new.png",
+            "light_img_url": "https://s.cornershopapp.com/store-images-white/1_new.png"
+          },
+          "shopper": {
+            "first_name": "Sebastian",
+            "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/1146210/7cc0302a2a821fae95f4fca717297cd5.png?versionId=ZWg5sRLhbCZCjnFXXI2x0gL9dt32EZRi"
+          },
+          "cart": {
+            "id": 1071041,
+            "label": null
+          },
+          "progress": {
+            "description": "Entregado",
+            "percentage": 100.0,
+            "is_active": false,
+            "is_cancelable": false,
+            "is_on_the_way": false,
+            "is_trackable": false,
+            "public_status": "Entregado",
+            "status": "DELIVERED"
+          },
+          "label": null,
+          "total": {
+            "amount": 34240.0,
+            "currency": "CLP"
+          },
+          "chat_enabled": false,
+          "created": "2019-03-24T21:34:45.980340Z",
+          "updated": "2019-03-24T22:46:54.256420Z",
+          "delivered_at": "2019-03-24T22:46:54.326567Z",
+          "delivery_slot_text": "Menos de 90 minutos"
+        }
+      ],
+      "buyer": {
+        "username": "coder.eduardo@gmail.com",
+        "first_name": "Eduardo",
+        "last_name": "Laguna",
+        "full_name": "Eduardo",
+        "profile_picture_url": "https://superpal.s3.amazonaws.com/profile-images/fa5839ef26ba5ee50b7b85d0a4b3d01b.jpg.jpeg?versionId=aEDkUAd88emo8_KEFHQ1pq.snPkAoK8e"
+      },
+      "created": "2019-03-24T21:34:45.967674Z"
+    }
+  ]
+}
