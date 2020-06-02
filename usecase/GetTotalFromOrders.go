@@ -5,24 +5,24 @@ import (
 	"fmt"
 	"github.com/theWando/cornershop-orders/model"
 	"github.com/theWando/cornershop-orders/repositories"
+	"path"
 	"sync"
 )
 
 func Get() (int, error) {
-	response, err := repositories.GetOrders()
+	orders, err := GetAllOrders()
 	if err != nil {
 		return 0, errors.New("error getting response")
 	}
 
 	var wg sync.WaitGroup
-	orders := &response.Results
-	wg.Add(len(*orders))
+	wg.Add(len(orders))
 
-	channel := make(chan float64, len(*orders))
+	channel := make(chan float64, len(orders))
 
 	var inter model.Order
 	var i int
-	for i, inter = range *orders {
+	for i, inter = range orders {
 		go func(order model.Order, i int, channel chan float64) {
 			defer wg.Done()
 
@@ -33,7 +33,10 @@ func Get() (int, error) {
 				return
 			}
 			total := orderDetail["total"]
-			channel <- total.(float64)
+
+			if evalCriteria(orderDetail) {
+				channel <- total.(float64)
+			}
 		}(inter, i, channel)
 	}
 
@@ -45,4 +48,11 @@ func Get() (int, error) {
 		total += int(value)
 	}
 	return total, nil
+}
+
+func evalCriteria(order map[string]interface{}) bool {
+	orderBreakDown := order["breakdown"].([]interface{})
+	paymentMethod := orderBreakDown[4].(map[string]interface{})["name"].(string)
+	r, _ := path.Match("Cobrado ···· 8398", paymentMethod)
+	return r
 }
