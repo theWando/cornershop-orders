@@ -1,28 +1,44 @@
 package model
 
 type Page struct {
-	Current  float64 `json:"current"`
-	Next     bool    `json:"next"`
-	Previous bool    `json:"previous"`
-	Total    float64 `json:"total"`
-	Size     float64 `json:"size"`
+	Current  uint8 `json:"current"`
+	Next     uint8 `json:"next"`
+	Previous uint8 `json:"previous"`
+	Total    uint8 `json:"total"`
+	Size     uint8 `json:"size"`
 }
 
-type baseItem struct {
+type BaseItem struct {
 	Uuid string `json:"uuid"`
 }
 
 type BaseOrder struct {
-	*baseItem
+	*BaseItem
 	Id     string  `json:"id"`
 	Orders []Order `json:"orders"`
 }
 type Order struct {
-	Uuid string `json:"uuid"`
+	*BaseItem
+}
+
+type OrderDetail struct {
+	Total     float32     `json:"total"`
+	Breakdown []Breakdown `json:"breakdown"`
+}
+
+type Total struct {
+	Amount   float32 `json:"amount"`
+	Currency string  `json:"currency"`
+}
+
+type Breakdown struct {
+	Type  string  `json:"type"`
+	Name  string  `json:"name"`
+	Total float32 `json:"total"`
 }
 
 type Result struct {
-	Pages   Page    `json:"pages"`
-	Count   float64 `json:"count"`
-	Results []Order `json:"results"`
+	Pages   Page        `json:"pages"`
+	Count   int         `json:"count"`
+	Results []BaseOrder `json:"results"`
 }

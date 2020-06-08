@@ -14,19 +14,20 @@ func GetAllOrders() ([]model.Order, error) {
 	}
 
 	pages := &initialResult.Pages
+	orders := &initialResult.Results[0].Orders
 	if pages.Total == 1 {
-		return initialResult.Results, nil
+		return *orders, nil
 	}
-	orders := &initialResult.Results
 
-	channel := make(chan []model.Order, int(pages.Total))
+	size := initialResult.Pages.Total - 1
+	channel := make(chan []model.BaseOrder, size)
 
 	var wg sync.WaitGroup
-	wg.Add(int(pages.Total))
-	for p := pages.Current; p <= pages.Total; p++ {
-		go func(page int, channel chan []model.Order) {
+	wg.Add(int(size))
+	for p := pages.Current + 1; p <= pages.Total; p++ {
+		go func(page int, channel chan []model.BaseOrder) {
 			defer wg.Done()
-			pagedOrders, _ := repositories.GetPagedOrders(repositories.GetOrderRequest{Page: page})
+			pagedOrders, _ := repositories.GetPagedOrders(repositories.GetOrderRequest(page))
 			channel <- pagedOrders.Results
 		}(int(p), channel)
 	}
@@ -34,7 +35,9 @@ func GetAllOrders() ([]model.Order, error) {
 	wg.Wait()
 	close(channel)
 	for orderCombo := range channel {
-		*orders = append(*orders, orderCombo...)
+		for _, baseOrder := range orderCombo {
+			*orders = append(*orders, baseOrder.Orders...)
+		}
 	}
 	return *orders, nil
 }

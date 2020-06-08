@@ -5,7 +5,8 @@ import (
 	"fmt"
 	"github.com/theWando/cornershop-orders/model"
 	"github.com/theWando/cornershop-orders/repositories"
-	"path"
+	"log"
+	"regexp"
 	"sync"
 )
 
@@ -18,30 +19,28 @@ func Get() (int, error) {
 	var wg sync.WaitGroup
 	wg.Add(len(orders))
 
-	channel := make(chan float64, len(orders))
+	channel := make(chan float32, len(orders))
 
 	var inter model.Order
-	var i int
-	for i, inter = range orders {
-		go func(order model.Order, i int, channel chan float64) {
+	for _, inter = range orders {
+		go func(order model.Order, channel chan float32) {
 			defer wg.Done()
 
 			orderDetail, err := repositories.GetOrder(order.Uuid)
 			if err != nil {
-				fmt.Printf("%d error getting data for %s. err %s\n", i, order.Uuid, err)
+				fmt.Printf("error getting data for %s. err %s\n", order.Uuid, err)
 				wg.Done()
 				return
 			}
-			total := orderDetail["total"]
 
 			if evalCriteria(orderDetail) {
-				channel <- total.(float64)
+				channel <- orderDetail.Total
 			}
-		}(inter, i, channel)
+		}(inter, channel)
 	}
 
 	total := 0
-	var value float64
+	var value float32
 	wg.Wait()
 	close(channel)
 	for value = range channel {
@@ -50,9 +49,16 @@ func Get() (int, error) {
 	return total, nil
 }
 
-func evalCriteria(order map[string]interface{}) bool {
-	orderBreakDown := order["breakdown"].([]interface{})
-	paymentMethod := orderBreakDown[4].(map[string]interface{})["name"].(string)
-	r, _ := path.Match("Cobrado ···· 8398", paymentMethod)
-	return r
+func evalCriteria(order model.OrderDetail) bool {
+	orderBreakDown := order.Breakdown
+	for _, breakdownItem := range orderBreakDown {
+		if b, _ := regexp.MatchString("payment_method", breakdownItem.Type); b {
+			b, _ := regexp.MatchString("Cobrado ···· 8398", breakdownItem.Name)
+			log.Print(b, " ", breakdownItem.Name)
+			if b {
+				return true
+			}
+		}
+	}
+	return false
 }
