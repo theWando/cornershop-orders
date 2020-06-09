@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"github.com/theWando/cornershop-orders/model"
 	"github.com/theWando/cornershop-orders/repositories"
-	"regexp"
 	"sync"
 )
 
@@ -50,11 +49,9 @@ func Get() (int, error) {
 
 func evalCriteria(order model.OrderDetail) bool {
 	orderBreakDown := order.Breakdown
-	pmRG, _ := regexp.Compile("payment_method")
-	cRG, _ := regexp.Compile("payment_method")
 	for _, breakdownItem := range orderBreakDown {
-		if pmRG.Match([]byte(breakdownItem.Type)) {
-			if cRG.Match([]byte(breakdownItem.Name)) {
+		if "payment_method" == breakdownItem.Type {
+			if "Cobrado ···· 8398" == breakdownItem.Name {
 				return true
 			}
 		}
